@@ -1,0 +1,14 @@
+Small FAQ style accordion made with jQUery
+by Dennis Johnson
+
+Description:
+
+Little script I wrote for a project I was working on that involved collapsible elements. Mainly, one element with the +/- icons that would collapse/expand a description div located beneath it. I implemented it to save some space on a lengthy FAQ page.
+
+Each entry consists of two rows: a heading row (just row in html), and a description row (the row where the expanded content lives). There are three columns to place your content in (left, middle, right). There are no height associated so feel free to add whatever! 
+
+As you create an entry, create both a Row and Description row beneath it. On the heading row, you'll need to add a sequential id to each of the +/- icons starting at 1. So your first +/- would be something like:
+
+<p><a id="1" href="#" class="show_hide"><img src="#"/></a> <!--Your Content--></p>
+
+I created the icons myself, so feel free to use them as you wish.  
