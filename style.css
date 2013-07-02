@@ -1,0 +1,83 @@
+/* style.css */
+/* Slide/Toggle */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80%;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: 901px;
+  padding: 10px;
+  position: relative; /* Prevents jumps in IE & Firefox */
+}
+
+p {
+  margin: 12px 0 12px 0; 
+  line-height: 1em;
+}
+
+.middle p {
+  margin: 12px 0 12px 0;
+  line-height: 1.5em;
+}
+
+.right p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+}
+
+.row {
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 20%;
+}
+
+.middle {
+  float: left;
+  width: 40%;
+}
+
+.right {
+  float: left;
+  width: 40%;
+}
+
+.description {
+  display: none;
+}
+
+.title, .phone {
+  margin: 10px 0 12px 0;
+}
+
+.description .left, .description .middle, .description .right {
+  border-top: none;
+}
+
+.left, .middle, .right {
+  border-top: 2px solid #000;
+}
+
